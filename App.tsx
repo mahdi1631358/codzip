@@ -42,18 +42,16 @@ import {
   APPLIANCE_CATEGORIES,
   INITIAL_COMMON_PROBLEMS
 } from './data';
-import { NotificationCenter } from './components/NotificationCenter';
-import { PartsStore } from './components/PartsStore';
-import { ErrorSearch } from './components/ErrorSearch';
-import { BookingForm } from './components/BookingForm';
-import { TechnicianPanel } from './components/TechnicianPanel';
-import { AdminPanel } from './components/AdminPanel';
-import { InfoPageModal } from './components/InfoPageModal';
-import { TechnicianAuth } from './components/TechnicianAuth';
-import { ErrorBoundary } from './components/ErrorBoundary';
-import { ClientDashboard } from './components/ClientDashboard';
-
-export default function App() {
+import { NotificationCenter } from './NotificationCenter';
+import { PartsStore } from './PartsStore';
+import { ErrorSearch } from './ErrorSearch';
+import { BookingForm } from './BookingForm';
+import { TechnicianPanel } from './TechnicianPanel';
+import { AdminPanel } from './AdminPanel';
+import { InfoPageModal } from './InfoPageModal';
+import { TechnicianAuth } from './TechnicianAuth';
+import { ErrorBoundary } from './ErrorBoundary';
+import { ClientDashboard } from './ClientDashboard';export default function App() {
   const lastLocalUpdateRef = React.useRef(0);
   // Current user / auth state
   const [currentUser, setCurrentUser] = useState<any>(null);
