@@ -1,0 +1,124 @@
+{
+  "adminPassword": "admin",
+  "smsSettings": {
+    "provider": "simulated",
+    "apiKey": "",
+    "lineNumber": "",
+    "otpPatternCode": "",
+    "statusNotificationPatternCode": "",
+    "enabled": false
+  },
+  "smsLogs": [
+    {
+      "id": "sms_log_1781798174861",
+      "phone": "09888888888",
+      "message": "مشتری گرامی ryry، درخواست \"تعمیر lflf sdasd\" شما با شماره رهگیری REQ-795279 با موفقیت در سامانه ثبت گردید. منتظر تماس همکاران ما بمانید. ایران‌سرویس",
+      "timestamp": "۱۴۰۵/۳/۲۸ - ۱۵:۵۶:۱۴",
+      "provider": "simulated",
+      "status": "sent_simulated"
+    },
+    {
+      "id": "sms_log_1781798156579",
+      "phone": "09888888888",
+      "message": "کد تایید درخواست ایران‌سرویس: 8687",
+      "timestamp": "۱۴۰۵/۳/۲۸ - ۱۵:۵۵:۵۶",
+      "provider": "simulated",
+      "status": "sent_simulated"
+    },
+    {
+      "id": "sms_log_1781796937479",
+      "phone": "09120000000",
+      "message": "مدیر گرامی، دیتابیس سراسری ایران‌سرویس و کدهای عیب‌یابی با موفقیت کاملاً پاکسازی و ریست شدند. آماده ثبت اطلاعات جدید هستیم.",
+      "timestamp": "۱۴۰۵/۳/۲۸ - ۱۵:۳۵:۳۷",
+      "provider": "simulated",
+      "status": "sent_simulated"
+    }
+  ],
+  "errorCodes": [],
+  "technicians": [
+    {
+      "id": "tech_us_1781797702831",
+      "name": "dasda",
+      "phone": "09111111111",
+      "password": "ورودی پرتال",
+      "specialty": [
+        "پکیج و لوازم خانگی"
+      ],
+      "rating": 5,
+      "completedOrders": 0,
+      "balance": 0,
+      "isVerified": false,
+      "activeLocation": "تهران",
+      "documents": [
+        "صلاحیت‌نامه موقت تکنسین (مدرک شناسایی اولیه).pdf"
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1540569014015-19a7be504e3a"
+    }
+  ],
+  "orders": [
+    {
+      "id": "REQ-795279",
+      "customerName": "ryry",
+      "customerPhone": "09888888888",
+      "city": "تهران",
+      "region": "نامشخص",
+      "address": "dfsf",
+      "category": "lflf",
+      "brand": "sdasd",
+      "model": "عمومی",
+      "errorCode": "نامعلوم",
+      "description": "",
+      "status": "waiting",
+      "date": "۱۴۰۵/۰۳/۱۵",
+      "timeSlot": "۰۹:۰۰ الی ۱۲:۰۰",
+      "mediaUrls": [],
+      "createdAt": "2026-06-18T15:56:07.536Z"
+    }
+  ],
+  "spareParts": [],
+  "citiesList": [],
+  "brandsList": [
+    "sdasd"
+  ],
+  "categoriesList": [
+    "lflf"
+  ],
+  "modelsList": [
+    "asda"
+  ],
+  "commonProblems": [],
+  "partPurchases": [],
+  "users": [
+    {
+      "id": "us_1781797702831",
+      "phone": "09111111111",
+      "password_hash": "f4227d66b520f35c78b27abcc1f128cff27f6df7737262e196c7ff0d3bcab55c",
+      "full_name": "dasda",
+      "role": "technician",
+      "city": "تهران",
+      "created_at": "2026-06-18T15:48:22.831Z"
+    },
+    {
+      "id": "us_1781798126291",
+      "phone": "09888888888",
+      "password_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "full_name": "S",
+      "role": "client",
+      "city": "مشهد",
+      "created_at": "2026-06-18T15:55:26.291Z"
+    },
+    {
+      "id": "us_1781798314262",
+      "phone": "09777777777",
+      "password_hash": "14451cb2d79a0c082ed4d0dae9f5bf06efee688429e2bd36903c458e7a93f4ba",
+      "full_name": "سسبیس",
+      "role": "technician",
+      "city": "تهران",
+      "created_at": "2026-06-18T15:58:34.263Z"
+    }
+  ],
+  "subscriptions": [],
+  "payments": [],
+  "userFeedbacks": [],
+  "supportPhone": "09120947304"
+}
